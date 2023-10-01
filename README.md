@@ -15,6 +15,10 @@ Software:
 
 -> create an object of the dht11 class
 
--> use the begin() method with a parameter indicating the pin on which the sensor is located
+-> use the constructor with a parameter indicating the pin on which the sensor is located
 
--> use the getTemperature() method to get the temperature as a floating point number
+-> use the getData(&int,&int) method to get the temperature and humidity(the method does not return anything, the values ​​are written by reference)
+
+-> use the getData(&int) to get only humidity
+
+-> see example.ino
