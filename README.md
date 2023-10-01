@@ -1,7 +1,7 @@
 # dht11
 Library for working with the DHT11/DHT22 sensor
 
-Suitable for any ATmega and ATtiny series microcontrollers
+For any ATmega and ATtiny series microcontrollers
 
 Takes up very little memory (less than 1KB)
 
@@ -13,7 +13,7 @@ Software:
 
 -> use the include directive to connect the library
 
--> create an object of the ds18b20 class
+-> create an object of the dht11 class
 
 -> use the begin() method with a parameter indicating the pin on which the sensor is located
 
